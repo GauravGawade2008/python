@@ -1,0 +1,16 @@
+student_id,name,age,math,science,english,attendance_%,grade
+101,Aarav Sharma,17,85,90,78,92,A
+102,Priya Patel,18,,76,88,85,B
+103,rohit kumar,17,72,,65,70,C
+104,Sneha Joshi,19,91,95,92,98,A
+105,ARJUN MEHTA,18,55,60,50,60,D
+106,Divya Nair,17,88,82,,88,B
+107,Karan Singh,18,,,72,45,C
+108,Meera Reddy,19,77,80,75,91,B
+109,Amit Verma,17,63,58,69,55,C
+110,Pooja Gupta,18,95,97,93,99,A
+101,Aarav Sharma,17,85,90,78,92,A
+111,ravi  teja,18,48,52,44,40,F
+112,Ananya Das,17,79,83,81,87,B
+113,Vikas Yadav,,66,70,68,,C
+114,Lakshmi Iyer,19,90,88,85,95,A
