@@ -13,18 +13,18 @@ print(f"\nTotal no. of null values: \n{df.isnull().sum()}")
 df = df.drop_duplicates()
 
 # name column is cleaned with title case and proper spacing.
-df["name"] = df["name"].str.strip().str.title()
+df["name"] = df["name"].str.strip().str.title().str.replace(r'\s+', ' ', regex=True)
 
 # filling missing values 
 numeric_cols = ["attendance_%","math","science","english"]
-df[numeric_cols] = df[numeric_cols].fillna(value = df[numeric_cols].mean(numeric_only = True).round(2))
+df[numeric_cols] = df[numeric_cols].fillna(value = df[numeric_cols].mean().round(2))
 
-df["age"] = df["age"].fillna(value = df["age"].median())
+df["age"] = df["age"].fillna(value = df["age"].median()).astype(int)
 
 #finding out the  students with attendance below 60% and filter them out 
 print("\nStudents with attendance below 60% :")
 print(df[df["attendance_%"] < 60 ].filter(items= ["name", "attendance_%"]))
-
+df = df[df["attendance_%"] >= 60]
 # finding out the average marks and adding the column
 df["average_marks"] = (( df["math"] + df["science"] + df["english"]) / 3).round(2)
 
