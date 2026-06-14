@@ -26,7 +26,7 @@ df.insert(2, "month", df["date"].dt.month)
 
 # total Revenue by Category
 print("\nRevenue by category: ")
-print(df.groupby("category")["revenue"].sum())
+print(df.groupby("category")["total_amount"].sum())
 
 # total revenue per product
 print("\nTotal revenue per product: ")
