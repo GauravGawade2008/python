@@ -103,12 +103,24 @@ The dataset contains sales transaction records with information such as:
 ## Project Structure
 
 ```text
+
 sales-transactions-analysis/
 │
+├── README.md
 ├── sales_transactions.csv
 ├── sales_transactions.py
-└── README.md
+├── sales_transactions.ipynb
+└── updated_sales_transactions.csv
 ```
+---
+
+## Files Description
+
+* `sales_transactions.csv` – Original dataset used for analysis.
+* `sales_transactions.py` – Python script containing the complete analysis workflow.
+* `sales_transactions.ipynb` – Jupyter Notebook version with code, outputs, and analysis.
+* `updated_sales_transactions.csv` – Processed dataset generated during analysis.
+* `README.md` – Project documentation and overview.
 
 ---
 
