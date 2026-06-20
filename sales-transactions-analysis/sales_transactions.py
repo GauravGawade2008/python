@@ -60,3 +60,6 @@ total_revenue = df["total_amount"].sum()
 electronics_revenue = df.loc[df["category"] == "Electronics","total_amount"].sum()
 electronics_revenue_percent = ( electronics_revenue / total_revenue ) * 100
 print(f"\nFilter only Electronics category and find its % of total revenue: {electronics_revenue_percent.round(2)}")
+
+# saving the cleaned csv into new csv file
+df.to_csv("updated_sales_transactions.csv", index= False)
