@@ -1,4 +1,4 @@
-house_id,area_sqft,bedrooms,bathrooms,age_years,location,price
+ouse_id,area_sqft,bedrooms,bathrooms,age_years,location,price
 23,1549.0,3,2.0,33.0,bangalore,5932000.0
 47,934.0,2,1.0,0.0,mumbai,3563000.0
 81,1555.0,2,1.0,17.0,nagpur,5956000.0
