@@ -1,61 +1,96 @@
-# Real Estate Data Preprocessing & Exploratory Data Analysis
+# House Price Prediction
 
-This project demonstrates the initial stages of a machine learning workflow using a real estate dataset. The focus is on understanding, cleaning, validating, and analyzing the data before building predictive models.
+This project focuses on building a machine learning model to predict house prices using a real-world housing dataset from Kaggle. The goal is to understand every stage of the machine learning pipeline, from raw data to a trained predictive model.
 
-## Objectives
+## Project Workflow
 
-- Understand the dataset structure
-- Clean inconsistent and missing data
-- Handle duplicate records
-- Standardize categorical values
-- Detect and investigate outliers
-- Perform Exploratory Data Analysis (EDA)
-- Prepare a clean dataset for feature engineering and machine learning
+- Data Collection
+- Data Understanding
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Feature Selection
+- Model Training
+- Model Evaluation
 
-## Data Cleaning Performed
+---
 
-- Converted column names to lowercase
+## Dataset
+
+- Source: Kaggle Housing Dataset
+- Original dataset is stored in the `datasets/` directory.
+- A cleaned version is generated after preprocessing.
+
+---
+
+## Data Cleaning Completed
+
+The following preprocessing steps have been completed:
+
+- Converted column names to a consistent format
 - Removed duplicate records
-- Handled missing values using mean, median, and mode where appropriate
-- Corrected invalid values
-- Converted data types to appropriate formats
-- Standardized location names
-- Removed inconsistent records after business-based validation
+- Handled missing values
+- Corrected invalid and inconsistent entries
+- Fixed data types where required
+- Standardized categorical values
+- Performed basic data validation
+- Saved the cleaned dataset
 
-## Exploratory Data Analysis
+---
 
-- Statistical summary
-- Histogram analysis
-- Boxplot analysis
-- Outlier investigation
-- Location-wise property analysis
-- Price per square foot calculation
-- Business validation of suspicious records
+## Current Progress
 
-## Tools & Libraries
+- ✅ Dataset Collection
+- ✅ Data Understanding
+- ✅ Data Cleaning
+- ⏳ Exploratory Data Analysis (In Progress)
+- ⏳ Feature Engineering
+- ⏳ Model Training
+- ⏳ Model Evaluation
+
+---
+
+## Project Structure
+
+```
+house-price-prediction/
+│
+├── datasets/
+│   ├── housing.csv
+│   └── housing_cleaned.csv
+│
+├── notebooks/
+│   └── data-cleaning.ipynb
+│
+└── README.md
+```
+
+---
+
+## Tech Stack
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Jupyter Notebook
 
-## Current Progress
+---
 
-- ✅ Data Understanding
-- ✅ Data Cleaning
-- ✅ Data Validation
-- ✅ Exploratory Data Analysis (EDA)
+## Upcoming Tasks
 
-## Upcoming Work
-
+- Perform Exploratory Data Analysis (EDA)
+- Visualize important relationships
+- Handle outliers if required
 - Feature Engineering
-- Feature Selection
-- Data Encoding
-- Data Scaling
-- Model Training
-- Model Evaluation
+- Train multiple Machine Learning models
+- Compare model performance
+- Hyperparameter tuning
+- Final model evaluation
 
-## Learning Goal
+---
 
-This project is part of my machine learning learning journey, where I focus on understanding the reasoning behind each preprocessing and EDA step instead of simply applying predefined techniques.
+## Learning Objective
+
+This repository documents my machine learning learning journey. Rather than only building a prediction model, I aim to understand the purpose and reasoning behind every preprocessing, visualization, and modeling step using a real-world dataset.
