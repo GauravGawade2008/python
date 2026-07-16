@@ -78,10 +78,7 @@ EDA included:
 The following regression models were trained and evaluated:
 
 - Linear Regression
-- Decision Tree Regressor
 - Random Forest Regressor
-- Gradient Boosting Regressor
-- XGBoost *(if used)*
 
 ---
 
