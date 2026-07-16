@@ -1,96 +1,149 @@
-# House Price Prediction
+# 🏠 House Price Prediction
 
-This project focuses on building a machine learning model to predict house prices using a real-world housing dataset from Kaggle. The goal is to understand every stage of the machine learning pipeline, from raw data to a trained predictive model.
-
-## Project Workflow
-
-- Data Collection
-- Data Understanding
-- Data Cleaning
-- Exploratory Data Analysis (EDA)
-- Feature Engineering
-- Feature Selection
-- Model Training
-- Model Evaluation
+An end-to-end Machine Learning project that predicts house prices using a real-world housing dataset from Kaggle. This project covers the complete machine learning workflow, from data preprocessing to model evaluation and comparison.
 
 ---
 
-## Dataset
+## 📌 Project Overview
 
-- Source: Kaggle Housing Dataset
-- Original dataset is stored in the `datasets/` directory.
-- A cleaned version is generated after preprocessing.
+The objective of this project is to build and evaluate regression models capable of predicting house prices accurately. The project demonstrates the complete data science pipeline and follows best practices for preprocessing, feature engineering, model training, and evaluation.
 
 ---
 
-## Data Cleaning Completed
+## 🎯 Objectives
 
-The following preprocessing steps have been completed:
-
-- Converted column names to a consistent format
-- Removed duplicate records
-- Handled missing values
-- Corrected invalid and inconsistent entries
-- Fixed data types where required
-- Standardized categorical values
-- Performed basic data validation
-- Saved the cleaned dataset
+- Understand the housing dataset
+- Clean and preprocess raw data
+- Perform Exploratory Data Analysis (EDA)
+- Engineer useful features
+- Train multiple regression models
+- Compare model performance
+- Select the best-performing model
 
 ---
 
-## Current Progress
+## 📂 Dataset
 
-- ✅ Dataset Collection
+**Source:** Kaggle Housing Dataset
+
+### Dataset Versions
+
+| File | Description |
+|------|-------------|
+| `housing.csv` | Original dataset |
+| `housing_cleaned.csv` | Cleaned dataset |
+| `housing_cleaned_for_train.csv` | Final dataset used for training |
+
+---
+
+## 🛠️ Project Workflow
+
+- ✅ Data Collection
 - ✅ Data Understanding
 - ✅ Data Cleaning
-- ⏳ Exploratory Data Analysis (In Progress)
-- ⏳ Feature Engineering
-- ⏳ Model Training
-- ⏳ Model Evaluation
+- ✅ Exploratory Data Analysis (EDA)
+- ✅ Feature Engineering
+- ✅ Feature Selection
+- ✅ Model Training
+- ✅ Model Evaluation
+- ✅ Model Comparison
 
 ---
 
-## Project Structure
+## 📊 Exploratory Data Analysis
 
-```
+EDA included:
+
+- Missing value analysis
+- Distribution plots
+- Correlation analysis
+- Outlier detection
+- Numerical feature analysis
+- Categorical feature analysis
+
+---
+
+## ⚙️ Feature Engineering
+
+- Missing value handling
+- Encoding categorical variables
+- Feature transformation
+- Feature scaling (if applicable)
+- Data preparation for training
+
+---
+
+## 🤖 Machine Learning Models
+
+The following regression models were trained and evaluated:
+
+- Linear Regression
+- Decision Tree Regressor
+- Random Forest Regressor
+- Gradient Boosting Regressor
+- XGBoost *(if used)*
+
+---
+
+## 📈 Evaluation Metrics
+
+Models were evaluated using:
+
+- Mean Absolute Error (MAE)
+- R² Score
+
+---
+
+## 📁 Project Structure
+
+```text
 house-price-prediction/
 │
 ├── datasets/
 │   ├── housing.csv
-│   └── housing_cleaned.csv
+│   ├── housing_cleaned.csv
+│   └── housing_cleaned_for_train.csv
 │
 ├── notebooks/
-│   └── data-cleaning.ipynb
+│   ├── data-cleaning.ipynb
+│   ├── eda-and-feature-engineering.ipynb
+│   └── model-training.ipynb
 │
 └── README.md
 ```
 
 ---
 
-## Tech Stack
+## 🧰 Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
+- Scikit-learn
 - Jupyter Notebook
 
 ---
 
-## Upcoming Tasks
+## 📌 Project Status
 
-- Perform Exploratory Data Analysis (EDA)
-- Visualize important relationships
-- Handle outliers if required
-- Feature Engineering
-- Train multiple Machine Learning models
-- Compare model performance
-- Hyperparameter tuning
-- Final model evaluation
+✅ Completed
+
+This project demonstrates a complete machine learning workflow, including data cleaning, exploratory data analysis, feature engineering, model training, evaluation, and comparison using a real-world housing dataset.
 
 ---
 
-## Learning Objective
+## 📚 Learning Outcomes
 
-This repository documents my machine learning learning journey. Rather than only building a prediction model, I aim to understand the purpose and reasoning behind every preprocessing, visualization, and modeling step using a real-world dataset.
+Through this project, I gained practical experience in:
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Regression Algorithms
+- Model Evaluation
+- End-to-End Machine Learning Workflow
+
+---
+
