@@ -1,0 +1,13 @@
+# Ignore zip archives in root or subfolders
+*.zip
+
+# Ignore IDE / OS files
+.vscode/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Ignore temp / log folders
+.system_generated/
+scratch/
